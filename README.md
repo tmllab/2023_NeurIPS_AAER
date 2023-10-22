@@ -31,7 +31,6 @@ Single-step adversarial training (SSAT) has demonstrated the potential to achiev
 To train AAER on CIFAR-10
 ```
 # epsilon8
-# epsilon8
 python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 8 --lamda1 1.0 --lamda2 2.5 --lamda3 1.5 --out-dir CIFAR10_RS-AAER_8
 python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 8 --lamda1 1.0 --lamda2 1.5 --lamda3 0.15 --out-dir CIFAR10_N-AAER_8
 
@@ -50,7 +49,6 @@ python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 32 --lamda1 1.0 --la
 
 To train AAER on CIFAR-100
 ```
-# epsilon8
 # epsilon8
 python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 8 --lamda1 1.0 --lamda2 3.5 --lamda3 1.5 --out-dir CIFAR100_RS-AAER_8
 python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 8 --lamda1 1.0 --lamda2 1.5 --lamda3 0.15 --out-dir CIFAR100_N-AAER_8
