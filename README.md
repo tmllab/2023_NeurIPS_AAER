@@ -54,7 +54,7 @@ python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 8 --lamda1 1.0 --lam
 python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 8 --lamda1 1.0 --lamda2 1.5 --lamda3 0.15 --out-dir CIFAR100_N-AAER_8
 
 # epsilon12
-python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 12 --lamda1 1.0 --lamda2 4.0 --lamda3 2.75 --out-dir CIFAR100_RS-AAER_12
+python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 12 --lamda1 1.0 --lamda2 3.5 --lamda3 2.75 --out-dir CIFAR100_RS-AAER_12
 python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 12 --lamda1 1.0 --lamda2 3.5 --lamda3 0.3 --out-dir CIFAR100_N-AAER_12
 
 # epsilon16
