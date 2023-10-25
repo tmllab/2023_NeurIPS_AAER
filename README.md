@@ -35,7 +35,7 @@ python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 8 --lamda1 1.0 --lam
 python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 8 --lamda1 1.0 --lamda2 1.5 --lamda3 0.15 --out-dir CIFAR10_N-AAER_8
 
 # epsilon12
-python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 12 --lamda1 1.0 --lamda2 5.0 --lamda3 2.5 --out-dir CIFAR10_RS-AAER_12
+python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 12 --lamda1 1.0 --lamda2 5.0 --lamda3 2.75 --out-dir CIFAR10_RS-AAER_12
 python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 12 --lamda1 1.0 --lamda2 5.0 --lamda3 0.55 --out-dir CIFAR10_N-AAER_12
 
 # epsilon16
@@ -43,8 +43,8 @@ python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 16 --lamda1 1.0 --la
 python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 16 --lamda1 1.0 --lamda2 8.5 --lamda3 1.5 --out-dir CIFAR10_N-AAER_16
 
 # epsilon32
-python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 32 --lamda1 1.0 --lamda2 6.0 --lamda3 1.5 --out-dir CIFAR10_RS-AAER_32
-python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 32 --lamda1 1.0 --lamda2 3.5 --lamda3 0.7 --out-dir CIFAR10_N-AAER_32
+python3 AAER.py --epoch 30 --clamp 1 --alpha 1.25 --epsilon 32 --lamda1 1.0 --lamda2 5.75 --lamda3 1.5 --out-dir CIFAR10_RS-AAER_32
+python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 32 --lamda1 1.0 --lamda2 2.75 --lamda3 0.75 --out-dir CIFAR10_N-AAER_32
 ```
 
 To train AAER on CIFAR-100
