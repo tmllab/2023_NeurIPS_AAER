@@ -75,5 +75,10 @@ python3 AAER.py --epoch 30 --clamp 0 --alpha 1.00 --epsilon 32 --lamda1 1.0 --la
 If you find the code useful in your research, please consider citing our paper:
 
 <pre>
-
+@inproceedings{lin2023eliminating,
+  title={Eliminating Catastrophic Overfitting Via Abnormal Adversarial Examples Regularization},
+  author={Lin, Runqi and Yu, Chaojian and Liu, Tongliang},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
+}
 </pre>
